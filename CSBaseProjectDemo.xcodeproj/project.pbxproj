@@ -34,6 +34,7 @@
 		4027319A228E44A800F7D005 /* CSRefreshStateHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 40273197228E44A700F7D005 /* CSRefreshStateHeader.m */; };
 		402731B8228EC82800F7D005 /* CSRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 402731B7228EC82800F7D005 /* CSRefreshGifHeader.m */; };
 		402731BB228ED55600F7D005 /* CSRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 402731BA228ED55600F7D005 /* CSRefreshFooter.m */; };
+		407749DE22977AE700F0D881 /* CSFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 407749DD22977AE700F0D881 /* CSFoundation.m */; };
 		40B0EE73228FC494006ED1F7 /* CSRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B0EE72228FC494006ED1F7 /* CSRefreshAutoFooter.m */; };
 		40B0EE76228FD865006ED1F7 /* CSRefreshAutoStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B0EE75228FD865006ED1F7 /* CSRefreshAutoStateFooter.m */; };
 		40B0EE79228FD8F7006ED1F7 /* CSRefreshAutoNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B0EE78228FD8F7006ED1F7 /* CSRefreshAutoNormalFooter.m */; };
@@ -101,6 +102,8 @@
 		402731B7228EC82800F7D005 /* CSRefreshGifHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSRefreshGifHeader.m; sourceTree = "<group>"; };
 		402731B9228ED55600F7D005 /* CSRefreshFooter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSRefreshFooter.h; sourceTree = "<group>"; };
 		402731BA228ED55600F7D005 /* CSRefreshFooter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSRefreshFooter.m; sourceTree = "<group>"; };
+		407749DC22977AE700F0D881 /* CSFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSFoundation.h; sourceTree = "<group>"; };
+		407749DD22977AE700F0D881 /* CSFoundation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSFoundation.m; sourceTree = "<group>"; };
 		40B0EE71228FC494006ED1F7 /* CSRefreshAutoFooter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSRefreshAutoFooter.h; sourceTree = "<group>"; };
 		40B0EE72228FC494006ED1F7 /* CSRefreshAutoFooter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSRefreshAutoFooter.m; sourceTree = "<group>"; };
 		40B0EE74228FD865006ED1F7 /* CSRefreshAutoStateFooter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSRefreshAutoStateFooter.h; sourceTree = "<group>"; };
@@ -167,6 +170,7 @@
 			children = (
 				402708C52286A31D00032FE3 /* AppDelegate.h */,
 				402708C62286A31D00032FE3 /* AppDelegate.m */,
+				407749DB2297784D00F0D881 /* CSExtension */,
 				402709382286ACC600032FE3 /* CSPullRefresh */,
 				402709002286A71C00032FE3 /* Handler */,
 				402708EC2286A71B00032FE3 /* Category */,
@@ -302,6 +306,15 @@
 				40B0EE70228FB8C1006ED1F7 /* BackFooter */,
 			);
 			path = Footer;
+			sourceTree = "<group>";
+		};
+		407749DB2297784D00F0D881 /* CSExtension */ = {
+			isa = PBXGroup;
+			children = (
+				407749DC22977AE700F0D881 /* CSFoundation.h */,
+				407749DD22977AE700F0D881 /* CSFoundation.m */,
+			);
+			path = CSExtension;
 			sourceTree = "<group>";
 		};
 		40B0EE6F228FB8C1006ED1F7 /* AutoFooter */ = {
@@ -462,6 +475,7 @@
 				40B0EE73228FC494006ED1F7 /* CSRefreshAutoFooter.m in Sources */,
 				402709112286A71C00032FE3 /* AlertUtils.m in Sources */,
 				4027319A228E44A800F7D005 /* CSRefreshStateHeader.m in Sources */,
+				407749DE22977AE700F0D881 /* CSFoundation.m in Sources */,
 				402709122286A71C00032FE3 /* FPSHandler.m in Sources */,
 				40B0EE88228FE8D7006ED1F7 /* CSRefreshBackGifFooter.m in Sources */,
 				402708E82286A62700032FE3 /* main.m in Sources */,
