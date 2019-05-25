@@ -19,6 +19,9 @@
 // 自己封装的上拉下拉刷新控件
 #import "CSPullRefresh.h"
 
+// 自己封装的 数据转模型
+#import "CSExtension.h"
+
 #define kScreenWidth [UIScreen mainScreen].bounds.size.width
 #define kScreenHeight [UIScreen mainScreen].bounds.size.height
 

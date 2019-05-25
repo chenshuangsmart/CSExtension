@@ -35,6 +35,9 @@
 		402731B8228EC82800F7D005 /* CSRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 402731B7228EC82800F7D005 /* CSRefreshGifHeader.m */; };
 		402731BB228ED55600F7D005 /* CSRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 402731BA228ED55600F7D005 /* CSRefreshFooter.m */; };
 		407749DE22977AE700F0D881 /* CSFoundation.m in Sources */ = {isa = PBXBuildFile; fileRef = 407749DD22977AE700F0D881 /* CSFoundation.m */; };
+		407749E22298D1D300F0D881 /* CSPropertyKey.m in Sources */ = {isa = PBXBuildFile; fileRef = 407749E12298D1D300F0D881 /* CSPropertyKey.m */; };
+		407749E52298D5FA00F0D881 /* CSPropertyType.m in Sources */ = {isa = PBXBuildFile; fileRef = 407749E42298D5FA00F0D881 /* CSPropertyType.m */; };
+		407749E822990C7900F0D881 /* CSExtensionConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 407749E722990C7900F0D881 /* CSExtensionConst.m */; };
 		40B0EE73228FC494006ED1F7 /* CSRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B0EE72228FC494006ED1F7 /* CSRefreshAutoFooter.m */; };
 		40B0EE76228FD865006ED1F7 /* CSRefreshAutoStateFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B0EE75228FD865006ED1F7 /* CSRefreshAutoStateFooter.m */; };
 		40B0EE79228FD8F7006ED1F7 /* CSRefreshAutoNormalFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 40B0EE78228FD8F7006ED1F7 /* CSRefreshAutoNormalFooter.m */; };
@@ -104,6 +107,13 @@
 		402731BA228ED55600F7D005 /* CSRefreshFooter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSRefreshFooter.m; sourceTree = "<group>"; };
 		407749DC22977AE700F0D881 /* CSFoundation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSFoundation.h; sourceTree = "<group>"; };
 		407749DD22977AE700F0D881 /* CSFoundation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSFoundation.m; sourceTree = "<group>"; };
+		407749DF2298D14600F0D881 /* CSExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSExtension.h; sourceTree = "<group>"; };
+		407749E02298D1D300F0D881 /* CSPropertyKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSPropertyKey.h; sourceTree = "<group>"; };
+		407749E12298D1D300F0D881 /* CSPropertyKey.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSPropertyKey.m; sourceTree = "<group>"; };
+		407749E32298D5FA00F0D881 /* CSPropertyType.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSPropertyType.h; sourceTree = "<group>"; };
+		407749E42298D5FA00F0D881 /* CSPropertyType.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSPropertyType.m; sourceTree = "<group>"; };
+		407749E622990C7900F0D881 /* CSExtensionConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSExtensionConst.h; sourceTree = "<group>"; };
+		407749E722990C7900F0D881 /* CSExtensionConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSExtensionConst.m; sourceTree = "<group>"; };
 		40B0EE71228FC494006ED1F7 /* CSRefreshAutoFooter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSRefreshAutoFooter.h; sourceTree = "<group>"; };
 		40B0EE72228FC494006ED1F7 /* CSRefreshAutoFooter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CSRefreshAutoFooter.m; sourceTree = "<group>"; };
 		40B0EE74228FD865006ED1F7 /* CSRefreshAutoStateFooter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CSRefreshAutoStateFooter.h; sourceTree = "<group>"; };
@@ -311,8 +321,15 @@
 		407749DB2297784D00F0D881 /* CSExtension */ = {
 			isa = PBXGroup;
 			children = (
+				407749DF2298D14600F0D881 /* CSExtension.h */,
+				407749E622990C7900F0D881 /* CSExtensionConst.h */,
+				407749E722990C7900F0D881 /* CSExtensionConst.m */,
 				407749DC22977AE700F0D881 /* CSFoundation.h */,
 				407749DD22977AE700F0D881 /* CSFoundation.m */,
+				407749E02298D1D300F0D881 /* CSPropertyKey.h */,
+				407749E12298D1D300F0D881 /* CSPropertyKey.m */,
+				407749E32298D5FA00F0D881 /* CSPropertyType.h */,
+				407749E42298D5FA00F0D881 /* CSPropertyType.m */,
 			);
 			path = CSExtension;
 			sourceTree = "<group>";
@@ -472,6 +489,7 @@
 				402709162286A72E00032FE3 /* NewsModel.m in Sources */,
 				40273199228E44A800F7D005 /* CSRefreshHeader.m in Sources */,
 				40B0EE85228FE8C5006ED1F7 /* CSRefreshBackNormalFooter.m in Sources */,
+				407749E822990C7900F0D881 /* CSExtensionConst.m in Sources */,
 				40B0EE73228FC494006ED1F7 /* CSRefreshAutoFooter.m in Sources */,
 				402709112286A71C00032FE3 /* AlertUtils.m in Sources */,
 				4027319A228E44A800F7D005 /* CSRefreshStateHeader.m in Sources */,
@@ -483,9 +501,11 @@
 				402709422286BA0900032FE3 /* CSRefreshComponent.m in Sources */,
 				40B0EE76228FD865006ED1F7 /* CSRefreshAutoStateFooter.m in Sources */,
 				40B0EE7F228FE88A006ED1F7 /* CSRefreshBackFooter.m in Sources */,
+				407749E22298D1D300F0D881 /* CSPropertyKey.m in Sources */,
 				402709102286A71C00032FE3 /* NewsHandler.m in Sources */,
 				40273190228E449900F7D005 /* UIScrollView+CSRefresh.m in Sources */,
 				40B0EE79228FD8F7006ED1F7 /* CSRefreshAutoNormalFooter.m in Sources */,
+				407749E52298D5FA00F0D881 /* CSPropertyType.m in Sources */,
 				402731BB228ED55600F7D005 /* CSRefreshFooter.m in Sources */,
 				401BD79D228CF2DD0055B54F /* ViewController.m in Sources */,
 				4027318D228E449900F7D005 /* UIScrollView+CSExtension.m in Sources */,
